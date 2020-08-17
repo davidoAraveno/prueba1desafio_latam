@@ -1,7 +1,14 @@
 body{
     width: 100%;
-    color: red;
 }
 
+.navbar a{
+    color: blue;
+}
 
-
+.imagen-header{
+    height: 75vh;
+    background-image: url("../img/imagen_header.jpg");
+    background-size: cover;
+    background-position: center;
+}
