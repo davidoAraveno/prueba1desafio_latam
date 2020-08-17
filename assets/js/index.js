@@ -1,3 +1,5 @@
+////SMOOTH SCROOL//////
+
 $(function(){
     $("a").click(function(event){
         if(this.hash !== ""){
@@ -12,3 +14,18 @@ $(function(){
         }
     })
 })
+
+//////MODAL////////
+
+(function(){
+
+    $(function(){
+        $('#exampleModal').modal()
+    })
+}());
+
+
+/////tooltip///////
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
