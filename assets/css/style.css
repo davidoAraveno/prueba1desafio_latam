@@ -1,9 +1,6 @@
 body{
     width: 100%;
-}
-
-.navbar a{
-    color: blue;
+    font-family: 'Roboto', sans-serif;
 }
 
 .imagen-header{
@@ -11,4 +8,16 @@ body{
     background-image: url("../img/imagen_header.jpg");
     background-size: cover;
     background-position: center;
+}
+
+h2, h5{
+    font-weight: 900;
+}
+
+.contenedor-imagen-header{
+    padding-top: 8.9vh;
+}
+
+#titulo-david-aravena{
+    font-weight: 900;
 }
