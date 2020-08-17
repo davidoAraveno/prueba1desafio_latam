@@ -1,0 +1,256 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  font-family: 'Open Sans';
+}
+
+/* ////////////////////////////////////////////////// */
+/* NAVBAR */
+
+.oscuro{
+  width: 100%;
+  background: #000F08;
+  z-index: 1;
+}
+
+.oscuro .icono_y_links{
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.oscuro .icono_y_links a{
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.oscuro .icono_y_links svg{
+  width: 8%;
+  fill: white;
+  padding: 1rem;
+}
+
+/* ///////////////////////////////////////// */
+  /* header index.html */
+header{
+  z-index: -1;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+header .textos{
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  color: white;
+  padding-right: 2rem;
+  text-shadow: 0px 3px 6px #00000080;
+}
+
+header .textos h1{
+  font-weight: 800;
+  font-size: 60px;
+}
+
+header .textos p{
+  font-weight: 400;
+  font-size: 40px;
+}
+
+header img{
+  width: 100%;
+}
+
+/* //////////////////////////////////////////////////////// */
+/* header event01 */
+
+.header_evento01{
+  width: 100%;
+  padding: 3rem 20rem;
+}
+
+.header_evento01 img{
+  width: 100%;
+}
+
+.header_evento01 h2{
+  margin-bottom: 2rem;
+  color: #000F08;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+/* ///////////////////////////////////////////////// */
+/* MAIN */
+.content{
+  width: 100%;
+}
+/* //////////////////////////////////////////////////////////////7 */
+.content .seccion1{
+  text-align: center;
+  padding: 5rem;
+}
+
+.content .seccion1 .imagen,main .seccion1 .textos{
+  width: 100%;
+}
+
+.content .seccion1 .imagen{
+  padding: 3rem;
+}
+
+.content .seccion1 .textos{
+  padding: 0 14rem;
+}
+
+.content .seccion1 .textos h2{
+  font-weight: 700;
+  font-size: 45px;
+  color: #000F08;
+}
+
+.content .seccion1 .textos p{
+  font-weight: 400;
+  font-size: 25px;
+  color: #000F08;
+}
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+.content .seccion2{
+  width: 100%;
+  display: flex;
+  background: #A4452C;
+
+}
+
+.content .seccion2 .imagen{
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content .seccion2 .imagen img{
+  transform: scale(0.8);
+}
+
+.content .seccion2 .textos{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 15rem;
+  color: white;
+}
+
+.content .seccion2 .textos .titulo1{
+  font-size: 45px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.content .seccion2 .textos .titulo2{
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.content .seccion2 .textos p{
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/* //////////////////////////////////////////////////// */
+
+.content .seccion3{
+  width: 100%;
+  padding: 5rem;
+}
+
+.content .seccion3 h2{
+  font-size: 45px;
+  color: #000F08;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.content .seccion3 .imagenes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .seccion3 .imagenes .imagen_individual h3{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 1.5rem;
+  font-weight: 700;
+  color: #000F08;
+}
+
+/* /////////////////////////////////////////////////////// */
+/* main event01 */
+
+.content_event_01{
+  width: 100%;
+  padding: 0 20rem;
+}
+
+.content_event_01 p{
+  font-weight: 400;
+  font-size: 25px;
+  color: #000F08;
+}
+
+.content_event_01 h2{
+  margin: 2rem 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000F08;
+}
+
+/* ////////////////////////////////////////////////////// */
+/* LINK HACIA EVENTO01 */
+.siguiente_pagina{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.siguiente_pagina a{
+  text-decoration: none;
+}
+
+/* /////////////////////////////////////////////////////// */
+/* FOOTER */
+.oscuro .grupo_iconos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.oscuro .grupo_iconos p{
+  font-size: 3rem;
+  padding: 0 1rem;
+  color: white;
+}
+
+.oscuro p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+}
