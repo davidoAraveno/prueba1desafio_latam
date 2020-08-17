@@ -10,14 +10,17 @@ body{
     background-position: center;
 }
 
+/* ////////peso para titulos////// */
 h2, h5{
     font-weight: 900;
 }
 
+/* //////////posicionamiento imagen header justo debajo del navbar////////////// */
 .contenedor-imagen-header{
     padding-top: 8.9vh;
 }
 
+/* //////peso para texto david aravena del navbar////////// */
 #titulo-david-aravena{
     font-weight: 900;
 }

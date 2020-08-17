@@ -15,6 +15,8 @@ $(function(){
     })
 })
 
+
+
 //////MODAL////////
 
 (function(){
@@ -23,6 +25,9 @@ $(function(){
         $('#exampleModal').modal()
     })
 }());
+
+
+
 
 
 /////tooltip///////
